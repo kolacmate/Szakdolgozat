@@ -595,11 +595,12 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: SimpleGame
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: C:\Users\Xylent\Documents\GitHub\Szakdolgozat\Mrtk simple
+    game\Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: DefaultCompany
+  metroCertificateIssuer: DefaultCompany
+  metroCertificateNotAfter: 809304d1b851d801
   metroApplicationDescription: Template_3D
   wsaImages: {}
   metroTileShortName: 
