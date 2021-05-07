@@ -24,16 +24,16 @@ public class ball : MonoBehaviour
         {
             //Destroy(other.gameObject);
             Rigidbody rigidbody = GetComponent<Rigidbody>();
-            rigidbody.constraints = RigidbodyConstraints.None;
-            rigidbody.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ;
+           // rigidbody.constraints = RigidbodyConstraints.None;
+          //  rigidbody.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ;
             Debug.Log("Elso");
         }
         if (other.gameObject.layer == 11)
         {
             //Destroy(other.gameObject);
             Rigidbody rigidbody = GetComponent<Rigidbody>();
-            rigidbody.constraints = RigidbodyConstraints.None;
-            rigidbody.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionX;
+         //   rigidbody.constraints = RigidbodyConstraints.None;
+          //  rigidbody.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionX;
             Debug.Log("Masoidk");
         }
         if (other.gameObject.layer == 9)
@@ -42,7 +42,7 @@ public class ball : MonoBehaviour
             Rigidbody rigidbody = GetComponent<Rigidbody>();
             rigidbody.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ;
             rigidbody.constraints = RigidbodyConstraints.None;
-            rigidbody.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionZ;
+            rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
         }
         if (other.gameObject.layer == 10)
         {
@@ -50,7 +50,7 @@ public class ball : MonoBehaviour
             Rigidbody rigidbody = GetComponent<Rigidbody>();
             rigidbody.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ;
             rigidbody.constraints = RigidbodyConstraints.None;
-            rigidbody.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionZ;
+            rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
         }
     }
 }
